@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cli-anything-nifi-checkride"
+version = "0.1.0"
+description = "Offline NiFi flow inspection, risk review, and value-free diffs for agents"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "FlightDeckAI"}]
+
+[project.scripts]
+cli-anything-nifi = "cli_anything.nifi.checkride:main"
+
+[tool.setuptools.packages.find]
+include = ["cli_anything.*"]
+namespaces = true

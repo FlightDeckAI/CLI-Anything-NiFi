@@ -1,3 +1,13 @@
+# CLI-Anything · NiFi Flow Checkride edition
+
+> **Modified by FlightDeckAI, 2026-09-24.** This is a fork of **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)**. Credit for the original framework belongs to HKUDS and its contributors. Original documentation follows below.
+
+**New: [NiFi Flow Checkride](nifi/agent-harness/README.md)** — inspect exported flows, flag configuration risks, and compare candidate changes with JSON output for AI agents. Offline and read-only; 11 tests, synthetic examples, no runtime dependencies. This is the initial engineering foundation for NiFi.ai, not a finished AI service.
+
+[Quick start](nifi/agent-harness/README.md#run-in-60-seconds) · [What changed and upstream credit](nifi/UPSTREAM.md)
+
+---
+
 <h1 align="center"><img src="assets/icon.png" alt="" width="64" style="vertical-align: middle;">&nbsp; CLI-Anything: Making ALL Software Agent-Native</h1>
 
 <div align="center">

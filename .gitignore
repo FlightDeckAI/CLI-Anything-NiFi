@@ -301,6 +301,12 @@
 /macrocli/agent-harness/cli_anything/macrocli/macro_definitions/demo/snapshots/
 
 
+# FlightDeckAI modification, 2026-09-24: include the NiFi extension.
+!/nifi/
+/nifi/*
+!/nifi/UPSTREAM.md
+!/nifi/agent-harness/
+
 # Step 7: Ignore build artifacts within allowed dirs
 **/__pycache__/
 **/*.egg-info/

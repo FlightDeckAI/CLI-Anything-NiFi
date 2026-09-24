@@ -1,0 +1,33 @@
+{
+  "flowContents": {
+    "identifier": "root",
+    "processors": [
+      {
+        "identifier": "source",
+        "properties": {
+          "endpoint": "http://example.invalid"
+        },
+        "autoTerminatedRelationships": [
+          "failure"
+        ]
+      },
+      {
+        "identifier": "sink",
+        "properties": {}
+      }
+    ],
+    "connections": [
+      {
+        "identifier": "wire",
+        "source": {
+          "id": "source"
+        },
+        "destination": {
+          "id": "sink"
+        },
+        "backPressureObjectThreshold": 0,
+        "backPressureDataSizeThreshold": "0 B"
+      }
+    ]
+  }
+}

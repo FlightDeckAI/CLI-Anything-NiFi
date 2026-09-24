@@ -1,0 +1,31 @@
+{
+  "flowContents": {
+    "identifier": "root",
+    "processors": [
+      {
+        "identifier": "source",
+        "properties": {
+          "endpoint": "https://example.invalid"
+        },
+        "autoTerminatedRelationships": []
+      },
+      {
+        "identifier": "sink",
+        "properties": {}
+      }
+    ],
+    "connections": [
+      {
+        "identifier": "wire",
+        "source": {
+          "id": "source"
+        },
+        "destination": {
+          "id": "sink"
+        },
+        "backPressureObjectThreshold": 10000,
+        "backPressureDataSizeThreshold": "1 GB"
+      }
+    ]
+  }
+}
